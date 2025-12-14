@@ -1,6 +1,6 @@
 
 ##Requirements
-- PHP >= 5.3.3.
+- PHP >= 7.3.
 
 ##Installation
 

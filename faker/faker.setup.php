@@ -1,4 +1,5 @@
-<?php defined('COT_CODE') or die('Wrong URL');
+<?php
+
 /* ====================
 [BEGIN_COT_EXT]
 Code=faker
@@ -17,7 +18,18 @@ Auth_members=RW
 Lock_members=12345A
 Recommends_plugins=page,users
 [END_COT_EXT]
-
 [BEGIN_COT_EXT_CONFIG]
+path2composer=01:string:::Custom path to Composer
+locale=02:string::en_EN:Localization code
 [END_COT_EXT_CONFIG]
 ==================== */
+
+defined('COT_CODE') or die('Wrong URL');
+
+/**
+ * Faker Plugin
+ *
+ * @version 1.00
+ * @author Twibie / Dmitri Beliavski
+ * @copyright (c) 2025 SED.by
+ */
